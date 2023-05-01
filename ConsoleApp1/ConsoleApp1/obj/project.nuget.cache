@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "cXJZre5LlTiCFrabGRZCJtD35JMudBj1B9z9xkpywQQE4Lln5u+6p7daPRA+L2qiXj2yMkSDxFqx7PygYqX7BQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Milan Chudasma\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Milan Chudasma\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
+    "C:\\Users\\Milan Chudasma\\.nuget\\packages\\ironsoftware.system.drawing\\2023.3.3\\ironsoftware.system.drawing.2023.3.3.nupkg.sha512",
+    "C:\\Users\\Milan Chudasma\\.nuget\\packages\\ironxl.excel\\2023.4.13\\ironxl.excel.2023.4.13.nupkg.sha512",
+    "C:\\Users\\Milan Chudasma\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Milan Chudasma\\.nuget\\packages\\sixlabors.imagesharp\\2.1.3\\sixlabors.imagesharp.2.1.3.nupkg.sha512",
+    "C:\\Users\\Milan Chudasma\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Milan Chudasma\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

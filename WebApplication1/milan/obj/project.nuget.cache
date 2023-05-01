@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GkjcuOZvGviEXqI14kwNsmKr6s/0qMSJgaOaVTiw+T3uxzlPGQpBZ7hAEAH+DUFRM82GiWDCbIbsKo+vjgxJNQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Milan Chudasma\\source\\repos\\WebApplication1\\milan\\first-app.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Milan Chudasma\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
