@@ -1,0 +1,31 @@
+﻿@model StduentCourseTableCrud.Models.ViewModelInsert
+
+@{
+}
+<form class="mt-5" method="post" action="Add">
+
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control"  placeholder="Enter Name" asp-for="Student_Name">
+       
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" placeholder="Enter Email" asp-for="Student_Email">
+
+    </div>
+    <div class="form-group">
+        <label for="Phone">Phone</label>
+        <input type="number" class="form-control" placeholder="Enter Phone" asp-for="Student_Phone">
+
+    </div>
+    <div class="form-group">
+        <label for="Name"> Course Name</label>
+        <input type="text" class="form-control" placeholder="Enter Course Name" asp-for="Course_Name">
+
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
