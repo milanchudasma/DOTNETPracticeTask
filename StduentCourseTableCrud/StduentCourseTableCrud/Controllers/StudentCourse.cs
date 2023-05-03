@@ -26,7 +26,6 @@ namespace StduentCourseTableCrud.Controllers
             student.Student_Email = viewModelInsert.Student_Email;
             student.Student_Phone = viewModelInsert.Student_Phone;
 
-        
             var course = new Course();
             course.Course_Name = viewModelInsert.Course_Name;
 
@@ -34,7 +33,7 @@ namespace StduentCourseTableCrud.Controllers
             {
                 Student = student,
                 Course = course
-            };
+            };  
 
             await studentCourseCRUD.Students.AddAsync(student);
             await studentCourseCRUD.Courses.AddAsync(course);
@@ -46,16 +45,11 @@ namespace StduentCourseTableCrud.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var student = await studentCourseCRUD.Students.ToListAsync();
-            var course = await studentCourseCRUD.Courses.ToListAsync();
-            var studentcourse = await studentCourseCRUD.StudentCourse.ToListAsync();
+            List<Student> student = await studentCourseCRUD.Students.ToListAsync();            
+            List<Course> course = await studentCourseCRUD.Courses.ToListAsync();
+            List<StudetCourse> studentcourse = await studentCourseCRUD.StudentCourse.ToListAsync();
 
-           
-            ViewData["student"] = student;
-            ViewData["course"] = course;
-            ViewData["studentcourse"] = studentcourse;
-
-            return View();
+            return View(studentcourse);
         }
     }
 }

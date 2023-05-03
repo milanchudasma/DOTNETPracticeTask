@@ -1,6 +1,32 @@
-﻿
+﻿@model List<StduentCourseTableCrud.Models.Domain.StudetCourse>
 @{
 }
 
 <h1> this is index method in student course</h1>
-<h2> @ViewData["milan"]  </h2>
+
+<table class="table">
+    <tr>
+        <td>Student_Id</td>
+        <td>Student_Name</td>
+        <td>Student_Phone</td>
+        <td>Student_Email</td>
+        <td>Course_Id</td>
+        <td>Course_Name</td>
+        <td>StudentCourse_Id</td>
+       
+    </tr>
+    @foreach(var items in Model)
+    {
+        <tr>
+            <td>@items.Student.Student_Id</td>
+            <td>@items.Student.Student_Name</td>
+            <td>@items.Student.Student_Phone</td>
+            <td>@items.Student.Student_Email</td>
+            <td>@items.Course.Id</td>
+            <td>@items.Course.Course_Name</td>
+            <td>@items.StudentCourse_Id</td>
+
+        </tr>
+    }
+   
+</table>
